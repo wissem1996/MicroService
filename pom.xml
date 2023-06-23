@@ -1,0 +1,18 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-parent</artifactId>
+  
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+		
+  <modules>
+    <module>client</module>
+    <module>eureuka</module>
+    <module>invoices-microservices</module>
+    <module>Product</module>
+    <module>serverconfig</module>
+    <module>Zuul-Gateway</module>
+    <!-- Add more modules as needed -->
+  </modules>
+</project>
